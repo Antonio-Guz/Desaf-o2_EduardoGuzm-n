@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 body{
     background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-family: "Boldonse", system-ui;
+    font-size: 17px;
     font-style: normal;
     
 }
@@ -20,6 +20,11 @@ nav{
 nav a{
     text-decoration: none;
     margin-inline: 20px;
+    color:black;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 header img{
     display: flex;
@@ -37,16 +42,96 @@ header img{
 .card img{
     width: 300px;
 }
-.Producto_top{
-    display: flex;
-    justify-content: center;
+.card p{
+    color: #ffaec1;
 }
 .card_horizontal{
     display: flex;
+    justify-content: center;
+    background-color:#ffaec1;
+    width: 1200px;
+    height: 320px;
+    border-radius: 20px;
+    justify-self: center;
+    margin: 20px;
+    padding: 20px;
+}
+.Main{
+    display: flex;
+}
+.Main_card{
+    display: flex;
+    justify-content: center;
+    background-color:#ffaec1;
+    width: 800px;
+    height: 320px;
+    border-radius: 20px;
+    justify-self: start;
+    margin: 20px;
+    padding: 20px;
+}
+.Main_card:hover{
+    transform: scale(1.05);
+    transition: 1.1s;
+}
+.Main_card img{
+    border-radius: 20px;
+}
+strong{
+    color: #ffb2da;
+    
+}
+.Main_text{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 320px;
+    border-radius: 20px;
+    justify-self: end;
+    margin: 20px;
+    padding: 20px;
 }
 .card_horizontal img{
-    width: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
 }
+.card_horizontal:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.history{
+    display: grid;
+    height: auto;
+    text-align: justify;
+}
+.history h2{
+    color: white;
+}
+.history:hover{
+    transform: none;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.Producto_top h1{
+    display: flex;
+    justify-self: center;
+    font-size: 50px;
+}
+.Producto_top h2{
+    color: white;
+}
+h3{
+    margin: 0;
+}
+button{
+    background-color: #ffb2da;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
 footer{
     background-color:#ffaec1;
     display: flex;
